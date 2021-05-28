@@ -1,0 +1,58 @@
+  .heading
+  {
+    font-size:18px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+ 
+    float: none;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  .result_para_tag span
+  {
+    white-space: pre-line;
+  }
+  .copy_right_footer{
+    position: fixed;
+    color: blue;
+    bottom: 0;
+    width:100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+  }
+  canvas{
+    border: 5px solid white;
+    border-radius: 100px;
+    
+    margin-top: 140px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes example{
+   from{box-shadow: 15px 15px 15px green;}
+   to{box-shadow: 15px 15px 15px red;}
+  }
+   .btn-success:hover {
+background-color:blue;
+color: yellow;
+
+
+  }
